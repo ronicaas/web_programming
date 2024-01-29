@@ -1,0 +1,73 @@
+body {
+  margin: 10;
+  padding: 0;
+  background-color: rgb(244, 244, 244);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: rgb(85, 85, 85);
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+div {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+footer {
+  background-color: rgb(51, 51, 51);
+  color: rgb(255, 255, 255);
+  text-align: right;
+  padding: 10px;
+}
+
+.about-me {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+.about-me img {
+  width: 50%;
+  height: 50%;
+  max-width: 100%;
+  border-radius: 50%;
+  margin: 20px 0;
+  float: center;
+  margin-right: 20px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
